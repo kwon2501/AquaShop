@@ -88,9 +88,9 @@ git commit -m "Add AquaShop source image"
 커밋한거 푸시
 git push origin main
 
-![Project Structure](images/AquaShop_sourceimg)
-
-
+![Project Structure](images/AquaShop_sourceimg.png)
+/images
+/AquaShop_sourceimg.png
 ---
 
 ## 사용 기술
