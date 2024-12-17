@@ -78,6 +78,15 @@ AquaShop/                          (프로젝트 루트)
 ├── pom.xml                                                 (Maven 빌드 설정)
 └── README.md                                               (프로젝트 설명)
 
+++Git Bash에서 
+깃에 이미지 추가 : git add
+git add images/AquaShop_sourceimg.png
+
+커밋 : git commit
+git commit -m "Add AquaShop source image"
+
+커밋한거 푸시
+git push origin main
 
 ![Project Structure](images/AquaShop_sourceimg)
 
