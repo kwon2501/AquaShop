@@ -1,10 +1,29 @@
-HELP.md
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.iml
+.eclipse/
+
+# Ignore OS-specific files
+Thumbs.db
+.DS_Store
+*.log
+*.bak
+
+# Ignore database files
+*.mv.db
+*.trace.db
+
+# Ignore other unnecessary directories and files
+AppData/
+
+# Ignore build directories
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
+# STS (Spring Tool Suite) specific files
 .apt_generated
 .classpath
 .factorypath
@@ -13,13 +32,13 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
+# IntelliJ IDEA specific files
 .idea
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+# NetBeans specific files
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -29,5 +48,5 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+# VS Code specific files
 .vscode/
